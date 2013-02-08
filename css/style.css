@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+body
+{
+    background-image: url("../images/pattern.png"), url("../images/bg.jpg");
+    background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: auto, cover;
+       -moz-background-size: auto, cover;
+         -o-background-size: auto, cover;
+            background-size: auto, cover;
+}
+
+h1
+{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+    text-align: center;
+}
+
+.wrapper
+{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: rgba(0,0,0,0.85);
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+
+
+    -webkit-border-radius: 50%;
+     -khtml-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+
+.wrapper span
+{
+    height: 300px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
+
+.wrapper h1
+{
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
